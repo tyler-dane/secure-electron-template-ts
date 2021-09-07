@@ -2,13 +2,13 @@ import React from "react";
 
 const message = "Hello World!";
 message.toLowerCase()
-// message();  // not a function
+// message(); <-- this would causer runtime error. uncomment & confirm red squiggy shows up thanks to typescript
 
 const user = {
   name: "Daniel",
   age: 26,
 };
-user.location; // returns undefined
+user.location; // <-- confirm red squiggly shows up thanks to ts (cuz it returns undefined). 
 
 
 class About extends React.Component {
