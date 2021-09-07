@@ -1,5 +1,16 @@
 import React from "react";
 
+const message = "Hello World!";
+message.toLowerCase()
+message();  // not a function
+
+const user = {
+  name: "Daniel",
+  age: 26,
+};
+user.location; // returns undefined
+
+
 class About extends React.Component {
   render() {
     return (
