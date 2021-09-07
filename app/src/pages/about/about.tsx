@@ -2,7 +2,7 @@ import React from "react";
 
 const message = "Hello World!";
 message.toLowerCase()
-message();  // not a function
+// message();  // not a function
 
 const user = {
   name: "Daniel",
